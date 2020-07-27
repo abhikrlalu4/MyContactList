@@ -1,0 +1,105 @@
+/*body{
+    margin:0;
+    font-family: sans-serif;
+  
+}
+#page-heading
+{
+    text-align: center;
+    margin-top: 25px;
+    color: gray;
+}
+#contacts-list-container ul{
+    padding: 0;
+    list-style: none;
+}
+.contact{
+    padding: 3px 10px;
+    border: 1px solid black;
+    background-color: #6f92f9;
+    box-shadow: 1px 1px 1px 1px lightgrey;
+    color: grey;
+    display: flex;
+}
+.contact .details{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:90%;
+}
+.contact .delete-button{
+    width:10%;
+    padding: 3px;
+    text-align: center;
+    margin-top: 5px;
+}
+.contact .delete-button a{
+ color: white;
+ background-color: red;
+}
+.contact p{
+    margin: 5px 0;
+} */
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#page-heading{
+    text-align: center;
+    margin-top: 25px;
+    color: grey;
+}
+
+#contacts-list-container ul{
+    padding-left:40%;
+    list-style: none;
+}
+
+ .contact{
+    width:40%;
+    height:7%;
+    border: 2px solid white;
+    background-color:#6f92f9;
+    box-shadow: 1px 1px 1px 1px lightgrey;
+    color: white;
+    display: flex;
+} 
+
+
+.contact .details{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    width: 98%;
+}  
+
+.delete-button{
+    text-align: inherit;
+} 
+
+.contact p{
+    margin: 5px 0;
+} 
+
+.details:hover{
+    background-color: blue;
+    border: 2px solid lightgrey;
+}
+
+#new-contact-form{
+    text-align: center;
+    padding-left: 55px;
+}
+
+.addcontact{
+    background-color: grey;
+}
+
+.addcontact:hover{
+    background-color: lightgrey;
+}
+ 
